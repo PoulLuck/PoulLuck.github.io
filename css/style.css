@@ -67,7 +67,8 @@ footer        {clear: both;
               display: block;
               margin: 0;
               padding: 0;
-              float:left;}
+              float:left;
+              width:1000px;}
 .sidebar ul.menu {margin-left: 45px;}
 .sidebar li      {width: 135px;
                   }
@@ -93,7 +94,7 @@ footer        {clear: both;
              top: 37px;
              left: 0;
              background-color: white;}
-#after ::after {
+#after1 ::after {
     content: '';
     display: block;
     width: 0;
@@ -103,6 +104,34 @@ footer        {clear: both;
     border-top: 6px solid #fff;
     position: absolute;
     right: 19px;
+    left:120px;
+    bottom: 12px;}
+
+
+#after2 ::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 6px solid #fff;
+    position: absolute;
+    right: 19px;
+    left:96px;
+    bottom: 12px;}
+
+#after3 ::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 6px solid #fff;
+    position: absolute;
+    right: 19px;
+    left:112px;
     bottom: 12px;}
 
 .sidebar ul.submenu > li {
