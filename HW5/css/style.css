@@ -1,0 +1,103 @@
+
+html       {margin: 0 auto;
+			width: 1300px;}
+a          {text-decoration: none;}
+body       {background-image: url(../img/fon.jpg);
+			background-repeat: no-repeat;
+			width: 1208px;
+			height: 100%;
+			font-family: Tahoma;}
+header 	    {
+			background-image: url(../img/header1.jpg);
+		 	height: 36px;
+			width:1215px;
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-end;}
+
+.boxHead    {width:523px;
+			height:36px;
+			}
+.boxHead a  {display: inline-block;	
+			width:95px;
+			text-align:center;
+			vertical-align:middle;
+			padding-top:9px;
+			height: 27px;}
+
+.boxHead a {color:#60b5ed;}
+
+.boxHead a:active {
+         background-color: #4eabda;
+      	 color:#ffffff;}
+
+.boxHead2   {width:427px;
+			height:40px;
+			}
+.boxHead2 a {display: inline-block;	
+			width:192px;
+			vertical-align:middle;height: 27px;padding-top: 9px;text-align: center;margin-left: 14px;}
+
+.boxHead2 a {color:#ffffff;}
+
+.boxHead2 a:active {
+         background-color: #4eabda;
+      	 color:#ffffff;}
+
+.containe {display:flex;
+			align-items:center;
+			flex-direction:column;
+		   margin-top: 214px;}
+
+
+.bottom1 {background-color: rgba(0%, 0%, 0%, 0.5);
+		 height:62px;
+		 width:556px;
+		 text-align: center;}
+
+.bottom1 {color:#ffffff;
+			text-align:center;
+			display:inline-block;}
+.bottom1 p {margin-top:19px;}
+
+.bottom2 {background-color: rgba(0%, 0%, 0%, 0.5);
+		 height:553px;
+		 width:556px;
+		 margin-top:2px;
+		 display:flex;
+		 justify-content: center;
+		 flex-direction: inherit;}
+
+#button {
+	background-image: url(../img/fb.png);
+	width: 279px;
+	height: 38px;
+	border:0px;
+	background-color:rgba(0%, 0%, 0%, -0.5);
+	margin-left: 145px;
+}
+
+.button2 {width:297px;
+		 height:327px;
+		 margin-left:148px;}
+
+.button2 input {width:274px;
+	height:39px;
+	background-color:#0f0f0f;
+	color:#ffffff;
+	border:0px;
+	margin-top:14px;padding-left:27px;font-size:12px;}
+
+.checkbox {color:#ffffff;
+		   margin-left:146px;}
+#first_name {background-color:#1b5288;}
+
+#button2 {
+	      color:#ffffff;margin-left: 210px;height: 27px;width: 151px;
+	      background-image:url(../img/create.png);
+	      margin-top:14px;
+	      text-align:center;
+	      padding-top:7px;;	}
+
+	      
+#cadastre {font-size: 25px;}
